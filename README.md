@@ -1,5 +1,8 @@
 ## Start application
-``python3 main.py``
+
+```bash
+python3 main.py
+```
 
 ## FastAPI
 http://localhost:8000/swagger <br>
@@ -33,5 +36,6 @@ curl -X 'POST' \
 ```
 
 ``src/app/core/config.py:4`` Нужно указать ``TELEGRAM_BOT_TOKEN`` <br>
-Токен можно получить у https://t.me/BotFather
+Токен можно получить у https://t.me/BotFather <br>
+Все зависимости находиться в файле requirements.txt
 
