@@ -1,7 +1,7 @@
 class DatabasSettings:
     DEBUG: bool = True
 
-    TELEGRAM_BOT_TOKEN = "788371865:AAH_kdWRUdELq2BNYLPkSGbUBMiLaU6h5I0"
+    TELEGRAM_BOT_TOKEN = ""
 
     DATABASE_HOST: str = "localhost"
     DATABASE_DB: str = "sqlite3.db"
